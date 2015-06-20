@@ -46,15 +46,15 @@
           <block type="movement_left" id="191"></block>
         </statement>
         <value name="IF2">
-          <block type="logic_compare" id="198" inline="true">
+          <block type="logic_compare" id="316" inline="true">
             <field name="OP">LT</field>
             <value name="A">
-              <block type="sensor_object" id="199">
+              <block type="sensor_object" id="317">
                 <field name="OBJECT">REAR</field>
               </block>
             </value>
             <value name="B">
-              <block type="math_number" id="200">
+              <block type="math_number" id="318">
                 <field name="NUM">75</field>
               </block>
             </value>
