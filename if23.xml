@@ -8,7 +8,7 @@
     </value>
     <statement name="DO">
       <block type="controls_if" id="83" inline="false">
-        <mutation else="1"></mutation>
+        <mutation elseif="1" else="1"></mutation>
         <value name="IF0">
           <block type="logic_compare" id="49" inline="true">
             <field name="OP">LT</field>
@@ -25,6 +25,24 @@
           </block>
         </value>
         <statement name="DO0">
+          <block type="movement_right" id="181"></block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="178" inline="true">
+            <field name="OP">LT</field>
+            <value name="A">
+              <block type="sensor_object" id="179">
+                <field name="OBJECT">RIGHTFRONT</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="180">
+                <field name="NUM">75</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
           <block type="movement_right" id="66"></block>
         </statement>
         <statement name="ELSE">
@@ -44,5 +62,8 @@
     <next>
       <block type="movement_stop" id="169"></block>
     </next>
+  </block>
+  <block type="sensor_object" id="177" x="613" y="506">
+    <field name="OBJECT">LEFTFRONT</field>
   </block>
 </xml>
