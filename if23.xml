@@ -64,7 +64,7 @@
           <block type="movement_forward" id="339"></block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_forward" id="150"></block>
+          <block type="movement_reverse" id="413"></block>
         </statement>
         <next>
           <block type="robot_delay" id="152" inline="true">
