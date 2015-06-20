@@ -1,4 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_reverse" id="328" x="35" y="11"></block>
   <block type="controls_whileUntil" id="13" inline="false" x="211" y="95">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
@@ -61,7 +62,7 @@
           </block>
         </value>
         <statement name="DO2">
-          <block type="movement_forward" id="264"></block>
+          <block type="movement_reverse" id="338"></block>
         </statement>
         <statement name="ELSE">
           <block type="movement_forward" id="150"></block>
