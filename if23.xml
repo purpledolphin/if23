@@ -64,13 +64,13 @@
           <block type="movement_forward" id="339"></block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_reverse" id="413"></block>
+          <block type="movement_forward" id="414"></block>
         </statement>
         <next>
           <block type="robot_delay" id="152" inline="true">
             <value name="DELAY">
               <block type="math_number" id="159">
-                <field name="NUM">200</field>
+                <field name="NUM">300</field>
               </block>
             </value>
           </block>
