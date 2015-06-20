@@ -1,0 +1,10 @@
+{
+    "name": "if23",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "if23.xml",
+    "author": "purpledolphin",
+    "minimum_firmware_version": 42
+}
